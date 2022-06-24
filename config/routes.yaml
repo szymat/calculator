@@ -1,7 +1,11 @@
 controllers:
-    resource: ../src/Controller/
+    resource: ../Calculator/Controller/
     type: annotation
 
 kernel:
-    resource: ../src/Kernel.php
+    resource: ../App/Kernel.php
     type: annotation
+
+
+api_login_check:
+    path: /api/login_check
